@@ -8,7 +8,7 @@ import Search from "./Search";
 import { Spin } from "antd";
 
 const Home = () => {
-  const [vinCode, setVinCode] = useState("JN1AZ4EH7DM430111");
+  const [vinCode, setVinCode] = useState("");
   const [decodeRes, setDecodeRes] = useState([]);
   const [recently, setRecently] = useState([]);
 

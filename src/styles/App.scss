@@ -104,16 +104,19 @@ h2 {
   text-align: center;
 }
 
-.variable-descr {
-  text-align: center;
-}
-
 .list-item {
   width: 100%;
   font-size: 20px;
   border-bottom: 1px solid lightgrey;
   padding: 10px;
   cursor: pointer;
+}
+
+.variable-descr {
+  text-align: center;
+  .list-item {
+    cursor: auto;
+  }
 }
 
 .ant-spin {

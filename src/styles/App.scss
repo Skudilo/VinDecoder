@@ -1,0 +1,138 @@
+@import "~antd/dist/antd.css";
+
+h2 {
+  font-size: 30px;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 18px;
+}
+
+.wrap {
+  width: 1440px;
+  max-width: 100%;
+}
+
+.home-wrap {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-bottom: 50px;
+}
+
+.intro {
+  padding: 0 50px;
+  text-align: center;
+
+  h1 {
+    font-size: 45px;
+  }
+
+  p {
+    font-size: 18px;
+  }
+}
+
+.navbar {
+  height: 100px;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 20px;
+  background-color: lightgrey;
+  margin-bottom: 30px;
+
+  .link {
+    font-size: 24px;
+    color: #000000;
+    font-weight: 700;
+    padding: 0 50px;
+  }
+}
+
+.search {
+  margin: 30px 0;
+
+  .search-wrap {
+    display: flex;
+    width: 100%;
+    min-width: 400px;
+    text-align: center;
+    margin-bottom: 20px;
+
+    .ant-input {
+      text-align: center;
+      width: 100%;
+    }
+
+    .input-error {
+      color: red;
+      font-size: 12px;
+      position: absolute;
+    }
+  }
+}
+
+.content {
+  padding: 0 20px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.decode-list {
+  flex-grow: 1;
+  min-width: 550px;
+}
+
+.recently-found {
+  min-width: 320px;
+  text-align: center;
+  flex-grow: 1;
+  margin-bottom: 50px;
+  margin-right: 40px;
+}
+
+.variable-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.variable-descr {
+  text-align: center;
+}
+
+.list-item {
+  width: 100%;
+  font-size: 20px;
+  border-bottom: 1px solid lightgrey;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.ant-spin {
+  display: flex;
+  justify-content: center;
+
+  &-dot {
+    width: 2em;
+    height: 2em;
+
+    &-item {
+      width: 15px;
+      height: 15px;
+    }
+  }
+}
+
+@media (max-width: 600px) {
+  .decode-list {
+    min-width: 200px;
+  }
+}

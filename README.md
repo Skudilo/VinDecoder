@@ -1,3 +1,3 @@
 # VinDecoder
-App for decode VIN Code
-deploy on vercel https://vin-decoder-henna.vercel.app/
+App for decode VIN Code.
+Deploy on vercel https://vin-decoder-henna.vercel.app/
